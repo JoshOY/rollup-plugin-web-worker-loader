@@ -1,10 +1,13 @@
 {
-    "name": "rollup-plugin-web-worker-loader",
-    "version": "1.6.0",
-    "description": "Rollup plugin to handle Web Workers",
+    "name": "@joshoy/rollup-plugin-web-worker-loader",
+    "version": "1.6.1",
+    "description": "Rollup plugin to handle Web Workers (with bug fixes on blob generation)",
     "main": "src/index.js",
-    "repository": "https://github.com/darionco/rollup-plugin-web-worker-loader",
+    "repository": "https://github.com/JoshOY/rollup-plugin-web-worker-loader",
     "author": "Dario Segura",
+    "maintainers": [
+        "Josh Ouyang <me@joshoy.org>"
+    ],
     "license": "MIT",
     "scripts": {
         "lint": "eslint src/**/*.js"
